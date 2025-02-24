@@ -91,7 +91,7 @@ p {
     text-decoration: none;
 }
 
-.navbar .nav-text a:hover {
+.navbar a:hover {
     text-decoration: underline;
 }
 
@@ -204,4 +204,80 @@ p {
 
 .Contact-Me h2 {
     padding-top: 13vh;
+}
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+    
+    h1 {
+        font-size: 45px;
+     }
+     
+     h2 {
+         font-size: 30px;
+     }
+     
+     h3 {
+         font-size: 20px;
+     }
+     
+     p {
+         font-size: 10px;
+     }
+
+     .navbar {
+        justify-content: start; 
+        height: 10vw;
+        padding-left: 55px;
+     }
+
+     .navbar a {
+        padding-right: none;
+    }
+
+     /* landing page */
+
+     .landing-page {
+        padding-top: 45%;
+     }
+
+
+     /* about page*/
+
+     .About-Me {
+        margin-left: 10%;
+        padding-top: 10vh;
+     }
+     .About-Me .pictures-of-me img {
+        padding-bottom: 10px;
+        padding-right: 38px;
+        width: 25%;
+    }
+    .About-Me .pictures-of-me {
+        padding-bottom: 10px;
+    }
+
+    /* projects page */
+
+    .Projects-Page p {
+        font-size: 8px;
+    }
+
+    .Projects-Page {
+        padding-top: 10%;
+        margin-left: 15%;
+    }
+
+    /* contact page */
+
+    .Contact-Me p {
+        font-size: 9px;
+    }
+
+    .Contact-Me {
+        padding-top: 12%;
+    }
+
+
 }
