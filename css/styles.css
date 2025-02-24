@@ -73,8 +73,8 @@ p {
 /* Navbar styles */
 
 .navbar {
-    height: 91px;
-    width: 100vw;
+    height: 10vh;
+    width: 95.5vw;
     padding-left: 65px;
     display: flex;
     justify-content: flex-start; 
@@ -209,7 +209,11 @@ p {
 /* media queries */
 
 @media screen and (max-width: 768px) {
-    
+
+    body {
+        overflow-x: hidden;
+    }
+
     h1 {
         font-size: 45px;
      }
@@ -239,7 +243,7 @@ p {
      /* landing page */
 
      .landing-page {
-        padding-top: 45%;
+        padding-top: 50%;
      }
 
 
@@ -251,7 +255,7 @@ p {
      }
      .About-Me .pictures-of-me img {
         padding-bottom: 10px;
-        padding-right: 38px;
+        padding-right: 5vw;
         width: 25%;
     }
     .About-Me .pictures-of-me {
