@@ -292,7 +292,7 @@ p {
     /* experience page*/
 
     .Experience {
-        padding-top: 5%;
+        padding-top: 10%;
         margin-left: 5%;
         padding-bottom: 5%;
     }
@@ -308,7 +308,7 @@ p {
     }
 
     .Projects-Page {
-        padding-top: 5%;
+        padding-top: 10%;
         margin-left: 5%;
     }
 
@@ -319,7 +319,7 @@ p {
     }
 
     .Contact-Me p {
-        font-size: 2.7vw;
+        font-size: 2.5vw;
     }
 
     .Contact-Me h2 {
