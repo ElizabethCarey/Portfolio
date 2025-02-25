@@ -250,27 +250,31 @@ p {
      /* about page*/
 
      .About-Me {
-        margin-left: 10%;
+        margin-left: 17.5%;
         padding-top: 10vh;
      }
      .About-Me .pictures-of-me img {
         padding-bottom: 10px;
-        padding-right: 5vw;
-        width: 25%;
+        padding-right: 7vw;
+        width: 20%;
     }
     .About-Me .pictures-of-me {
         padding-bottom: 10px;
     }
 
-    /* projects page */
-
-    .Projects-Page p {
+    .About-Me p {
         font-size: 8px;
     }
 
+    /* projects page */
+
+    .Projects-Page p {
+        font-size: 7px;
+    }
+
     .Projects-Page {
-        padding-top: 10%;
-        margin-left: 15%;
+        padding-top: 5%;
+        margin-left: 17.5%;
     }
 
     /* contact page */
