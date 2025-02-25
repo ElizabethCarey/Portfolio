@@ -234,23 +234,23 @@ p {
     }
 
     h1 {
-        font-size: 45px;
+        font-size: 7vw;
      }
      
      h2 {
-         font-size: 30px;
+         font-size: 5vw;
      }
      
      h3 {
-         font-size: 20px;
+         font-size: 4vw;
      }
 
      h4 {
-        font-size: 14px;
+        font-size: 2.5vw;
      }
      
      p {
-         font-size: 10px;
+         font-size: 2vw;
      }
 
      .navbar {
@@ -273,37 +273,57 @@ p {
      /* about page*/
 
      .About-Me {
-        margin-left: 17.5%;
-        padding-top: 10vh;
+        margin-left: 5%;
+        padding-top: 2vh;
      }
      .About-Me .pictures-of-me img {
-        padding-bottom: 10px;
-        padding-right: 7vw;
-        width: 20%;
+        padding-bottom: 2vw;
+        padding-left: 25vw;
+        width: 40vw;
     }
     .About-Me .pictures-of-me {
         padding-bottom: 10px;
     }
 
     .About-Me p {
-        font-size: 8px;
+        font-size: 1.9vw;
+    }
+
+    /* experience page*/
+
+    .Experience {
+        padding-top: 5%;
+        margin-left: 5%;
+        padding-bottom: 5%;
+    }
+
+    .Experience p {
+        font-size: 1.6vw;
     }
 
     /* projects page */
 
     .Projects-Page p {
-        font-size: 7px;
+        font-size: 1.6vw;
     }
 
     .Projects-Page {
         padding-top: 5%;
-        margin-left: 17.5%;
+        margin-left: 5%;
     }
 
     /* contact page */
 
+    .Contact-Me {
+        margin-left: 5%;
+    }
+
     .Contact-Me p {
-        font-size: 9px;
+        font-size: 2.7vw;
+    }
+
+    .Contact-Me h2 {
+        font-size: 6vw;
     }
 
     .Contact-Me {
